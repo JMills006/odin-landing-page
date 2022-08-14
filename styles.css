@@ -16,11 +16,30 @@ ul {
     gap: 10px;
 }
 
-ul li a {
+button {
+    background-color:#3882F6;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    width: 75px;
+    border:0;
+    border-radius: 5px;
+}
+
+ul li a, p {
     color:#E5E7EB;
     font-size: 18px;
     text-decoration: none;
 }
+
+h1 {
+    color:#F9FAF8;
+    font-size:48px;
+    font-weight:bolder;
+    max-width: 400px;
+    margin:0px
+}
+
 .one, .header, .footer {
     background-color: #1F2937;
 }
@@ -31,8 +50,22 @@ ul li a {
     align-items: center;
 }
 
-.three{
+.three {
     background-color: #E5E7EB;
+}
+
+.one {
+    display:flex;
+    padding: 64px;
+    justify-content: space-evenly;
+}
+
+.one img {
+    background-color: gray;
+}
+
+p {
+    max-width: 400px;
 }
 
 #header-logo {
