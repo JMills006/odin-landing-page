@@ -26,7 +26,7 @@ button {
     border-radius: 5px;
 }
 
-ul li a, p, .four-text div {
+ul li a, p, .four-text div, .footer div {
     color:#E5E7EB;
     font-size: 18px;
     text-decoration: none;
@@ -142,26 +142,33 @@ h2 {
     margin-right:100px;
     padding: 50px;
     display:flex;
-    align-items: center;
-    justify-content: space-between;
+    align-items:center;
+    justify-content:space-between;
 }
 
 .four-text {
-    display: flex;
-    flex-direction: column;
+    display:flex;
+    flex-direction:column;
 }
 
 h3 { 
-    margin-bottom: 5px;
+    margin-bottom:5px;
 }
 
 .four-text div {
-    margin: 0px;
-    padding: 0px;
+    margin:0px;
+    padding:0px;
 }
 
 .four div button {
-    border: solid white 3px;
-    max-height: 40px;
+    border:solid white 3px;
+    max-height:40px;
     
 }
+
+.footer {
+    display:flex;
+    justify-content:center;
+    padding:25px;
+}
+
