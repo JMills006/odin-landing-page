@@ -82,6 +82,7 @@ h2 {
 
 .two-content{
     display:flex;
+    flex-wrap: wrap;
 }
 
 .two-content div {
@@ -111,4 +112,24 @@ h2 {
     color:#F9FAF8;
     font-size: 24px;
     font-weight: bold;
+}
+
+#quote {
+    font-size:36px;
+    font-style:italic;
+    font-weight:lighter;
+    color:#1F2937;
+    margin-top:100px;
+    margin-bottom: 0px;
+    margin-left:20vw;
+    margin-right:20vw;
+}
+
+#quote-author {
+    text-align:right;
+    font-weight:bold;
+    font-size:20px;
+    margin-right:10vw;
+    margin-top: 0px;
+    margin-bottom:75px;
 }
