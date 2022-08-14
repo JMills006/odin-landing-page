@@ -68,6 +68,48 @@ p {
     max-width: 400px;
 }
 
+.two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-size:36px;
+    font-weight:bolder;
+    color:#1F2937;
+}
+
+#two-text {
+    display:flex;
+    justify-content: center;
+    color:rgb(107, 107, 107);
+    margin-top:0px;
+    padding-top: 0px;
+}
+
+#two-images {
+    display: flex;
+    justify-content: center;
+}
+
+.two-text{
+    max-width: 150px;
+    margin:30px;
+}
+
+.two-image {
+    width: 100px;
+    height: 100px;
+    padding:25px;
+    margin: 25px;
+    margin-bottom: 0px;
+    border:solid;
+    border-radius: 10px;
+    border-width:5px;
+    border-color: #3882F6;
+}
+
 #header-logo {
     color:#F9FAF8;
     font-size: 24px;
